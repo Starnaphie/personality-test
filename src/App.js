@@ -2,14 +2,25 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Hello from V2</h1>
-      </header>
+const root = ReactDOM.createRoot(
+  document.getElementById('root')
+);
+
+function App() { 
+  const element = (
+    <div>
+      <h1>Hello, world!</h1>
+      <h2>It is {new Date().toLocaleTimeString()}.</h2>
     </div>
+  );
+  root.render(element);
+}
+
+setInterval(tick, 1000);
+
+function Question() {
+  return (
+    <></>
   );
 }
 
