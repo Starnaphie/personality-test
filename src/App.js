@@ -1,6 +1,5 @@
 import ReactDOM from 'react-dom';
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 const root = ReactDOM.createRoot(
@@ -17,7 +16,7 @@ function App() {
   root.render(element);
 }
 
-setInterval(tick, 1000);
+setInterval(App, 1000);
 
 function Question() {
   return (
