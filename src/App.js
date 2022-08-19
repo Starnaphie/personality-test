@@ -7,13 +7,10 @@ const root = ReactDOM.createRoot(
 );
 
 function App() { 
-  const element = (
-    <div>
-      <h1>Hello, world!</h1>
-      <h2>It is {new Date().toLocaleTimeString()}.</h2>
-    </div>
-  );
-  root.render(element);
+  <div>
+    <h1>Hello, world!</h1>
+    <h2>It is {new Date().toLocaleTimeString()}.</h2>
+  </div>
 }
 
 setInterval(App, 1000);
@@ -24,4 +21,4 @@ function Question() {
   );
 }
 
-// export default App;
+ export default App;
