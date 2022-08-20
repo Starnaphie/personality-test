@@ -1,7 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import ReactDOM from 'react-dom';
 import React from 'react';
 =======
+=======
+>>>>>>> parent of 937378c0 (changes for v2)
 import logo from './logo.svg';
 >>>>>>> parent of 937378c0 (changes for v2)
 import './App.css';
@@ -48,4 +51,7 @@ function Question() {
 }
 
 export default App;
+<<<<<<< HEAD
+>>>>>>> parent of 937378c0 (changes for v2)
+=======
 >>>>>>> parent of 937378c0 (changes for v2)
