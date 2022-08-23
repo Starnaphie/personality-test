@@ -1,14 +1,20 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import { Text } from 'react-native';
+import React from 'react';
+import Header from './components/Header.js';
+import QuestionList from './components/QuestionList.js';
+import Footer from './components/Footer.js';
 
-const Cat = () => {
+
+function App() {
   return (
-    <Text>Hello, I am your cat!</Text>
-  );
+    <div className="App">
+      <Header />
+      <QuestionList />
+      <Footer />
+    </div>
+  )
 }
-
-export default Cat;
 
 // function App() {
 //   return (
@@ -21,4 +27,4 @@ export default Cat;
 //   )
 // }
 
-// export default App;
+export default App;
