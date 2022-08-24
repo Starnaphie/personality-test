@@ -3,6 +3,8 @@
     https://tutorial.techaltum.com/css-flexbox.html#:~:text=Display%20flex%20is%20the%20property,Change%20display%20flex
     */
     display: flex;
+    min-height: 100vh;
+    font-size: calc(10px + 2vmin);
     text-align: center;
     justify-content: center;
     align-items: center; 
