@@ -4,7 +4,7 @@ import './Header.css'
 export default function Header() {
   return (
     <header className='Header'>
-        <a href={homeurl}>Home</a>
+        <a href='homeurl'>Home</a>
     </header>
   )
 }
