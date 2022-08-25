@@ -1,3 +1,4 @@
 .Question {
-    
+    display: flex;
+    flex-direction: column;
 }
