@@ -1,20 +1,17 @@
-// import logo from './logo.svg';
+import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import Header from './components/Header.js';
 import QuestionList from './components/QuestionList.js';
-import Footer from './components/Footer.js';
+import Result from './components/Result.js';
 
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <div>
-        <a href='homeurl'>Boop</a>
-      </div>
       <QuestionList />
-      <Footer />
+      <Result />
     </div>
   )
 }

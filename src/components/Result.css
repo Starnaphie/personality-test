@@ -1,25 +1,19 @@
-.Header {
+.Result {
     /*
     https://tutorial.techaltum.com/css-flexbox.html#:~:text=Display%20flex%20is%20the%20property,Change%20display%20flex
     */
     display: flex;
-    min-height: 75px + 1vh;
+    min-height: 100px;
     min-width: 100vh;
-    font-family: bhavuka;
-    font-size: calc(40px + 1vh);
+    font-size: calc(10px + 2vmin);
     text-align: center;
     justify-content: center;
     align-items: center; 
-    background-color: #108a78;
-    color: #ffffff;
+    background-color: #56e2cb;
+    color: #f3f3f3;
 }
 
 a {
     text-decoration: none;
-    color: #ffffff;
+    color: #f3f3f3;
 }
-
-@font-face {
-    font-family: bhavuka;
-    src: url('./fonts/Bhavuka\ Regular.ttf');
-  }
